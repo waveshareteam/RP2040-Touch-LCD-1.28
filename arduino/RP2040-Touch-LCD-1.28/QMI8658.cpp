@@ -592,23 +592,23 @@ unsigned char QMI8658_init(void)
       Serial.println(read_data);
 //			QMI8658_printf("QMI8658Register_Ctrl2=0x%x \n", read_data);
 			QMI8658_read_reg(QMI8658Register_Ctrl3, &read_data, 1);
-      Serial.print("QMI8658Register_Ctrl1 = ");
+      Serial.print("QMI8658Register_Ctrl3 = ");
       Serial.println(read_data);
 //			QMI8658_printf("QMI8658Register_Ctrl3=0x%x \n", read_data);
 			QMI8658_read_reg(QMI8658Register_Ctrl4, &read_data, 1);
-      Serial.print("QMI8658Register_Ctrl1 = ");
+      Serial.print("QMI8658Register_Ctrl4 = ");
       Serial.println(read_data);
 //			QMI8658_printf("QMI8658Register_Ctrl4=0x%x \n", read_data);
 			QMI8658_read_reg(QMI8658Register_Ctrl5, &read_data, 1);
-      Serial.print("QMI8658Register_Ctrl1 = ");
+      Serial.print("QMI8658Register_Ctrl5 = ");
       Serial.println(read_data);
 //			QMI8658_printf("QMI8658Register_Ctrl5=0x%x \n", read_data);
 			QMI8658_read_reg(QMI8658Register_Ctrl6, &read_data, 1);
-      Serial.print("QMI8658Register_Ctrl1 = ");
+      Serial.print("QMI8658Register_Ctrl6 = ");
       Serial.println(read_data);
 //			QMI8658_printf("QMI8658Register_Ctrl6=0x%x \n", read_data);
 			QMI8658_read_reg(QMI8658Register_Ctrl7, &read_data, 1);
-      Serial.print("QMI8658Register_Ctrl1 = ");
+      Serial.print("QMI8658Register_Ctrl7 = ");
       Serial.println(read_data);
 //			QMI8658_printf("QMI8658Register_Ctrl7=0x%x \n", read_data);
 		}
